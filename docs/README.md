@@ -2,7 +2,7 @@
 
 responsive weather dashboard built with Vue.js that displays current weather conditions and 5-day forecasts for multiple cities
 
-![Weather Dashboard](assets/demo.png)
+![Weather Dashboard](../assets/demo.png)
 
 ## Features
 
@@ -48,7 +48,7 @@ Want to use a different weather service? The code can easily be adapted for:
 ## File Structure
 
 ```
-monoindex.html
+index.html
 ├── html Structure
 ├── css Styling
 │   ├── Responsive grid layout
