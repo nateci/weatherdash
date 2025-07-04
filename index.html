@@ -339,7 +339,7 @@
                     
                     try {
                         // weatherapi endpoints
-                        const currentWeatherUrl = `https://api.weatherapi.com/v1/current.json?key=${this.apiKey}&q=${city}&aqi=no&units=imperial`;
+                        const currentWeatherUrl = `https://api.weatherapi.com/v1/current.json?key=${this.apiKey}&q=${city}&aqi=no`;
                         const forecastUrl = `https://api.weatherapi.com/v1/forecast.json?key=${this.apiKey}&q=${encodeURIComponent(this.searchCity)}&days=6&aqi=no&alerts=no`;
                         
                         // fetch current weather and forecast
